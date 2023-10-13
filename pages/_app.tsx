@@ -10,7 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/openai.svg" />
-        <script src="https://cdn.tailwindcss.com"></script>
+        {/* <script src="https://cdn.tailwindcss.com"></script> */}
       </Head>
       <main>
         <Component {...pageProps} />
